@@ -2,7 +2,7 @@ import asyncio
 import json
 from Avocado import Avocado
 
-
+# builds the organization model
 def build_model(data_set):
     model = {}
 

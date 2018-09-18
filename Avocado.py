@@ -24,6 +24,8 @@ class Avocado:
         self.plu_4225_sold = plu4225
         # total number of avocados with PLU 4770 (extra large hass) sold
         self.plu_4770_sold = plu4770
+        # labels (dictionary)
+        self.extra_labels = {}
 
     def __str__(self):
         return json.dumps(self.__dict__)
